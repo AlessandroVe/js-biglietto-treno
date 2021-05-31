@@ -8,8 +8,8 @@ if(user === "Ottavio" || user === "Davide" || user === "Alfredo"){
 
 
 var priceKm = 0.21
-var discount18=.2
-var discount65=.65
+var discount18=0.2;
+var discount65=0.65;
 var travel =parseInt(prompt("Quanti km vuoi percorrere?"));
 var ageUser =parseInt(prompt("L'eta' del passeggero?"));
 ageUser=parseInt(ageUser);
